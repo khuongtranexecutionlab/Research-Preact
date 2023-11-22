@@ -34,7 +34,7 @@ yarn add preact
 
 ### Một vài ví dụ dưới đây sẽ cho thấy sự khác biệt giữa preact và react
 
-**State, useState**
+# **State, useState**
 
 ## Preact
 
@@ -53,8 +53,6 @@ function ExampleComponent() {
 }
 ```
 
-vs
-**State, useState**
 
 ## React
 
@@ -77,7 +75,7 @@ function ExampleComponent() {
 
 > Cả hai đều sử dụng useState với cú pháp tương tự, mã nguồn giữa React và Preact có thể hoán đổi được mà không cần sửa đổi nhiều.
 
-**useEffect**
+# **useEffect**
 
 ## Preact
 
@@ -129,7 +127,7 @@ function ExampleComponent() {
 
 > Cả hai đều sử dụng useEffect để thực hiện các hành động sau khi component được render, cú pháp cũng tương tự nhau
 
-**Props**
+# **Props**
 
 ## Preact
 
@@ -193,7 +191,7 @@ function App() {
 
 > Cú pháp sử dụng props giữa React và Preact là hoàn toàn tương tự, cả hai đều sử dụng props để truyền dữ liệu từ component cha đến component con, hành vi của props trong React và Preact là như nhau.
 
-**Context API**
+# **Context API**
 
 ## Preact
 
