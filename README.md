@@ -1,4 +1,50 @@
-# Preact
+<p align="center">
+<a href="https://preactjs.com" target="_blank">
+
+![Preact](https://raw.githubusercontent.com/preactjs/preact/8b0bcc927995c188eca83cba30fbc83491cc0b2f/logo.svg?sanitize=true 'Preact')
+
+</a>
+</p>
+<p align="center">Thư viện <b>3kB</b> nhanh chóng thay thế cho React với cùng API hiện đại.</p>
+
+**Toàn bộ sức mạnh của các thành phần Virtual DOM, không có độ trễ:**
+
+- API và mô hình React quen thuộc: ES6 Class, hooks, và Functional Components
+- Tương thích rộng rãi với React thông qua một [alias đơn giản của preact/compat]
+- Mọi thứ bạn cần: JSX, <abbr title="Virtual DOM">VDOM</abbr>, [DevTools], <abbr title="Hot Module Replacement">HMR</abbr>, <abbr title="Server-Side Rendering">SSR</abbr>.
+- Thuật toán diff tối ưu hóa cao và thủ thuật hydrat hóa từ Server Side Rendering
+- Hỗ trợ tất cả các trình duyệt hiện đại và IE11
+- Hiển thị bất đồng bộ trong suốt với bảng lập lịch có thể cắm được
+
+### 💁 Thêm thông tin tại [Trang web Preact ➞](https://preactjs.com)
+
+<table border="0">
+<tbody>
+<tr>
+<td>
+
+[![npm](https://img.shields.io/npm/v/preact.svg)](http://npm.im/preact)
+[![Cộng đồng Slack của Preact](https://img.shields.io/badge/Slack%20Community-preact.slack.com-blue)](https://chat.preactjs.com)
+[![Nhà tài trợ OpenCollective](https://opencollective.com/preact/backers/badge.svg)](#backers)
+[![Nhà tài trợ OpenCollective](https://opencollective.com/preact/sponsors/badge.svg)](#sponsors)
+[![npm downloads](https://img.shields.io/npm/dm/preact.svg)](http://npm.im/preact)
+
+[![coveralls](https://img.shields.io/coveralls/preactjs/preact/main.svg)](https://coveralls.io/github/preactjs/preact)
+[![gzip size](http://img.badgesize.io/https://unpkg.com/preact/dist/preact.min.js?compression=gzip&label=gzip)](https://unpkg.com/preact/dist/preact.min.js)
+[![kích thước brotli](http://img.badgesize.io/https://unpkg.com/preact/dist/preact.min.js?compression=brotli&label=brotli)](https://unpkg.com/preact/dist/preact.min.js)
+
+</td>
+<td>
+
+<img src="https://saucelabs.com/browser-matrix/preact.svg" title="Ma trận hỗ trợ trình duyệt">
+
+</td>
+</tr>
+</tbody>
+</table>
+
+Bạn có thể tìm thấy một số thư viện tuyệt vời trong [HERE ](https://github.com/preactjs/awesome-preact) :sunglasses:
+
 
 Preact là một thư viện JavaScript cho xây dựng giao diện người dùng dựa trên cú pháp và API của React, nhưng với kích thước nhỏ gọn và hiệu suất cao hơn.
 
