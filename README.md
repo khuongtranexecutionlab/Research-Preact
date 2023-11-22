@@ -36,7 +36,7 @@ yarn add preact
 
 # **State, useState**
 
-## Preact
+**Preact**
 
 ```JSX
 import { h, render, useState } from "preact";
@@ -54,7 +54,7 @@ function ExampleComponent() {
 ```
 
 
-## React
+**React**
 
 ```JSX
 import React, { useState } from 'react';
@@ -77,7 +77,7 @@ function ExampleComponent() {
 
 # **useEffect**
 
-## Preact
+**Preact**
 
 ```JSX
 import { h, render, useState, useEffect } from 'preact';
@@ -101,7 +101,7 @@ function ExampleComponent() {
 
 ```
 
-## React
+**React**
 
 ```JSX
 import React, { useEffect, useState } from 'react';
@@ -129,7 +129,7 @@ function ExampleComponent() {
 
 # **Props**
 
-## Preact
+**Preact**
 
 ```JSX
 import { h, render } from 'preact';
@@ -157,7 +157,7 @@ render(<ParentComponent />, document.getElementById('app'));
 
 ```
 
-## React
+**React**
 
 ```JSX
 import React from 'react';
@@ -193,7 +193,7 @@ function App() {
 
 # **Context API**
 
-## Preact
+**Preact**
 
 ```JSX
 import { h, render, createContext, useContext, useState } from 'preact';
@@ -225,7 +225,7 @@ render(<ParentComponent><ChildComponent /></ParentComponent>, document.getElemen
 
 ```
 
-## React
+**React**
 
 ```JSX
 import React, { createContext, useContext, useState } from 'react';
